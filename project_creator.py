@@ -23,6 +23,13 @@ print("What should the project ID be? Ex: Synapse-Project")
 
 id = input(">")
 
+print("What version of your game are you starting out with? (Leave blank for 0.1)")
+
+ver = input(">")
+
+if ver == "":
+    ver = 0.1
+
 dir = projName
 srcDir = os.path.join(dir, "src")
 
@@ -38,6 +45,7 @@ projectSettings = {
         {
             "Name": projName,
             "Creator": creator,
+            "Version": ver,
             "ID": id
         }
     ]
