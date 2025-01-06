@@ -2,8 +2,10 @@ import os
 import sys
 
 #engineVer = 1.04
-toolsMajorVer = 0
-toolsMinorVer = 1
+#toolsMajorVer = 0
+#toolsMinorVer = 1
+betaMajorVer = 2
+betaMinorVer = 7
 creator = "Adam1000"
 
 def ClearScreen():
