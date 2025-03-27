@@ -5,7 +5,7 @@ import sys
 #toolsMajorVer = 0
 #toolsMinorVer = 1
 betaMajorVer = 2
-betaMinorVer = 7
+betaMinorVer = 8
 creator = "Adam1000"
 
 def ClearScreen():
