@@ -1,5 +1,7 @@
 import os
 import sys
+import time
+from time import sleep
 
 #engineVer = 1.04
 #toolsMajorVer = 0
@@ -7,6 +9,7 @@ import sys
 betaMajorVer = 2
 betaMinorVer = 8
 creator = "Adam1000"
+setup_file = "config.json"
 
 def ClearScreen():
     os.system("cls" if os.name == "nt" else "clear")
@@ -19,3 +22,4 @@ def progress_bar(iteration, total, prefix="", suffix="", length=50, print_end="\
     sys.stdout.flush()
     if iteration == total:
         print(print_end)
+
